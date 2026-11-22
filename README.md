@@ -17,5 +17,13 @@ Evita que el código de inventario se copie automáticamente al duplicar un equi
 
 
 
+Paso 2. Registro de préstamos
 
+1. Este modelo usa \_name y \_inherit al mismo tiempo. ¿Qué hace cada uno aquí?
+
+\_name define el nombre del nuevo modelo, mientras que \_inherit permite incorporar las funciones de mail.thread, como el historial de mensajes y cambios.
+
+1. ¿Qué hace tracking=True en el campo state?
+
+Permite registrar automáticamente los cambios de estado del préstamo en el chatter, mostrando el historial de modificaciones.
 
